@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Xinying Wu",
+    "section": "",
+    "text": "Hello! Welcome my portfolio website."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Xinying Wu",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Irvine | Irvine, CA\nM.S. in Business Analytics | Jul. 2024 - Jun. 2025\nThe University of Oregon | Eugene, OR\nB.S. in Business Administration | Sep. 2018 - Jun. 2022\nMinor in Computer Information Science | Sep. 2018 - Jun. 2022"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Xinying Wu",
+    "section": "Experience",
+    "text": "Experience\nEdwards Lifesciences, Irvine, CA | Student Analyst | Jan. 2025 - Present\n\nUsing Python to detect anomalies and patterns in Regulatory Compliant Distribution system data as the culminating project in MS Business Analytics program at the Paul Merage School of Business.\nGenerating insights and recommendations based on real-time error data, helping guide process decisions that supported operational efficiency.\nContributing to data governance strategies, creating structured procedures and documentation to ensure long-term data consistency and usability.\n\nGEO.S.BUSH & CO, Portland, OR | International Trade Representative | Oct. 2022 - Apr. 2024\n\nSupported the import team by managing shipment documentation and overseeing customs clearance processes.\nAccurately input shipment data into the company’s system to ensure timely and organized record-keeping.\nSubmitted essential documents for customs clearance, ensuring regulatory compliance and smooth delivery operations.\nAudited incoming shipments against order information and coordinated efficient distribution to appropriate channels.\nProvided responsive customer service by addressing inquiries related to shipments and logistics."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "March 2025\n\n\n\n\nBuilt a skill-based job recommendation system using NLP and cosine similarity on 1.3M+ LinkedIn job postings. Delivered a working prototype with a real-time matching interface.\n\n\n\n\nDecember 2024\n\n\n\n\nDeveloped and evaluated five machine learning models to predict customer churn for a telecom company. Delivered actionable insights for customer retention strategies."
+  },
+  {
+    "objectID": "projects/index.html#featured-projects",
+    "href": "projects/index.html#featured-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "March 2025\n\n\n\n\nBuilt a skill-based job recommendation system using NLP and cosine similarity on 1.3M+ LinkedIn job postings. Delivered a working prototype with a real-time matching interface.\n\n\n\n\nDecember 2024\n\n\n\n\nDeveloped and evaluated five machine learning models to predict customer churn for a telecom company. Delivered actionable insights for customer retention strategies."
+  },
+  {
+    "objectID": "projects/Job_recommendation/index.html",
+    "href": "projects/Job_recommendation/index.html",
+    "title": "Job Recommendation System",
+    "section": "",
+    "text": "To address the inefficiencies in resume screening, our team developed a job recommendation system that matches candidate resumes with job descriptions using NLP techniques and machine learning. The project utilized a large LinkedIn job dataset and deployed a prototype for interactive recommendations."
+  },
+  {
+    "objectID": "projects/Job_recommendation/index.html#project-overview",
+    "href": "projects/Job_recommendation/index.html#project-overview",
+    "title": "Job Recommendation System",
+    "section": "",
+    "text": "To address the inefficiencies in resume screening, our team developed a job recommendation system that matches candidate resumes with job descriptions using NLP techniques and machine learning. The project utilized a large LinkedIn job dataset and deployed a prototype for interactive recommendations."
+  },
+  {
+    "objectID": "projects/Job_recommendation/index.html#problem-statement",
+    "href": "projects/Job_recommendation/index.html#problem-statement",
+    "title": "Job Recommendation System",
+    "section": "Problem Statement",
+    "text": "Problem Statement\nRecruiters face challenges when manually reviewing thousands of resumes for job openings. This project aimed to automate the matching process between job seekers and job postings by extracting, cleaning, and comparing skills through text-based vectorization."
+  },
+  {
+    "objectID": "projects/Job_recommendation/index.html#tools-technologies",
+    "href": "projects/Job_recommendation/index.html#tools-technologies",
+    "title": "Job Recommendation System",
+    "section": "Tools & Technologies",
+    "text": "Tools & Technologies\n\nPython (Pandas, scikit-learn, spaCy)\nTF-IDF Vectorization\nCosine Similarity\nWord2Vec (for future improvement)\nGoogle Colab (backend)\nBolt & Netlify (prototype deployment)"
+  },
+  {
+    "objectID": "projects/Job_recommendation/index.html#key-methods-workflow",
+    "href": "projects/Job_recommendation/index.html#key-methods-workflow",
+    "title": "Job Recommendation System",
+    "section": "Key Methods & Workflow",
+    "text": "Key Methods & Workflow\n\nData Collection: Used a Kaggle dataset of 1.3M+ LinkedIn job postings\nPreprocessing: Removed nulls, cleaned text, lemmatized skills, removed stopwords\nVectorization: Applied TF-IDF to convert job skills into numerical vectors\nSimilarity Matching: Used cosine similarity to match resumes with job postings\nDeployment: Built and deployed a resume upload prototype on Netlify\nEvaluation: Incorporated user feedback and began testing with Word2Vec for semantic improvements"
+  },
+  {
+    "objectID": "projects/Job_recommendation/index.html#results-insights",
+    "href": "projects/Job_recommendation/index.html#results-insights",
+    "title": "Job Recommendation System",
+    "section": "Results & Insights",
+    "text": "Results & Insights\n\nTF-IDF vectorization allowed more accurate skill-weighted matching\nCosine similarity ranked job relevance effectively for uploaded resumes\nInitial prototype testing showed success across diverse roles (tech, healthcare, business)\nFuture improvements include automated job scraping and API integrations"
+  },
+  {
+    "objectID": "projects/Job_recommendation/index.html#business-value",
+    "href": "projects/Job_recommendation/index.html#business-value",
+    "title": "Job Recommendation System",
+    "section": "Business Value",
+    "text": "Business Value\n\nSaves recruiter time by automatically ranking relevant resumes\nEnhances candidate experience with personalized job suggestions\nPromotes equitable hiring by relying on skill-based matching"
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html",
+    "href": "projects/Customer_churn/index.html",
+    "title": "Customer Churn Analytics",
+    "section": "",
+    "text": "Customer churn is a major challenge in the telecom industry. This project aimed to identify key factors influencing churn and build predictive models that help telecom companies proactively retain high-risk customers. Using a dataset of 1,000 customer records with 10 features, we applied preprocessing and tested five models for performance comparison."
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html#project-overview",
+    "href": "projects/Customer_churn/index.html#project-overview",
+    "title": "Customer Churn Analytics",
+    "section": "",
+    "text": "Customer churn is a major challenge in the telecom industry. This project aimed to identify key factors influencing churn and build predictive models that help telecom companies proactively retain high-risk customers. Using a dataset of 1,000 customer records with 10 features, we applied preprocessing and tested five models for performance comparison."
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html#problem-statement",
+    "href": "projects/Customer_churn/index.html#problem-statement",
+    "title": "Customer Churn Analytics",
+    "section": "Problem Statement",
+    "text": "Problem Statement\nCustomer attrition directly impacts revenue, customer lifetime value, and market competitiveness. The goal of this project is to build a predictive analytics tool to identify churn risks and generate business insights for intervention."
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html#tools-technologies",
+    "href": "projects/Customer_churn/index.html#tools-technologies",
+    "title": "Customer Churn Analytics",
+    "section": "Tools & Technologies",
+    "text": "Tools & Technologies\n\nPython (Pandas, Scikit-learn, Matplotlib, Seaborn)\nMachine Learning: KNN, Naive Bayes, Logistic Regression, Decision Tree, Random Forest\nData Preprocessing: One-hot encoding, SMOTE, scaling, threshold optimization"
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html#key-methods-workflow",
+    "href": "projects/Customer_churn/index.html#key-methods-workflow",
+    "title": "Customer Churn Analytics",
+    "section": "Key Methods & Workflow",
+    "text": "Key Methods & Workflow\n\nData Cleaning: Removed missing values and uninformative features (e.g., CustomerID)\nFeature Engineering: Encoded categorical variables, created dummies, handled imbalanced classes\nExploratory Analysis: Visualized distributions and correlation with churn\nModel Development: Trained and evaluated 5 ML models\nValidation: Used cross-validation and threshold tuning for performance robustness"
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html#results-summary",
+    "href": "projects/Customer_churn/index.html#results-summary",
+    "title": "Customer Churn Analytics",
+    "section": "Results Summary",
+    "text": "Results Summary\n\n\n\n\n\n\n\n\nModel\nAccuracy\nKey Notes\n\n\n\n\nKNN\n92.33%\nPreprocessing improved F1 for minority class to 74%\n\n\nNaive Bayes\n88.8%\nPerformed worst under imbalance, improved with SMOTE\n\n\nLogistic Regression\n95%\nThreshold tuning improved recall for churned users\n\n\nDecision Tree\n100%\nOverfit risk; validated via cross-validation\n\n\nRandom Forest\n99.6%\nBest generalization with hyperparameter tuning"
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html#key-findings",
+    "href": "projects/Customer_churn/index.html#key-findings",
+    "title": "Customer Churn Analytics",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nCustomers with month-to-month contracts and no tech support are more likely to churn\nTenure and MonthlyCharges were strong indicators of loyalty\nPreprocessing and balancing were critical to improving model performance"
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html#business-implications",
+    "href": "projects/Customer_churn/index.html#business-implications",
+    "title": "Customer Churn Analytics",
+    "section": "Business Implications",
+    "text": "Business Implications\n\nTelecom companies can use these models to target retention strategies, such as:\n\nPersonalized discounts\nUpgraded service offerings\nProactive support interventions"
+  },
+  {
+    "objectID": "projects/Customer_churn/index.html#limitations-future-work",
+    "href": "projects/Customer_churn/index.html#limitations-future-work",
+    "title": "Customer Churn Analytics",
+    "section": "Limitations & Future Work",
+    "text": "Limitations & Future Work\n\nDataset was imbalanced (88% churned), which skewed results for certain models\nSome models (Decision Tree, Random Forest) may be overfitting to this specific dataset\nRecommend gathering more balanced data and deploying ensemble methods in production"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
